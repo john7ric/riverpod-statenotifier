@@ -69,6 +69,7 @@ class _WeatherSearchPageState extends State<WeatherSearchPage> {
         Text(
           weather.cityName,
           style: TextStyle(
+            color: Colors.grey,
             fontSize: 40,
             fontWeight: FontWeight.w700,
           ),
